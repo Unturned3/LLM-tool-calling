@@ -14,14 +14,18 @@ def main():
     # fmt: off
     vllm_cmd = [
         "vllm", "serve", model_name,
+        "--served-model-name", model_name.split("/")[-1],
         "--host", "0.0.0.0",
         "--port", port,
-        "--max-model-len", "8192",
-        "--gpu-memory-utilization", "0.9",
+        "--max-model-len", "100k",  # We are limited by the 48GB VRAM
+        "--gpu-memory-utilization", "0.95",
 
         # --enable-reasoning was deprecated in v0.9.0
-        #"--reasoning-parser", "qwen3",
+        # qwen3 reasoning parser doesn't work if <think> is given in the prompt and not generated
+        # by the model itself, which is what Qwen3-*-Thinking-* models do. We use the deepseek_r1
+        # parser, which does handle this case.
         "--reasoning-parser", "deepseek_r1",
+
         "--enable-auto-tool-choice",
         "--tool-call-parser", "qwen3_xml",
     ]
