@@ -1,0 +1,25 @@
+{
+  "batch_id": 87,
+  "batch_size": 1,
+  "scheduled_arrival_time": 1040.3419653836763,
+  "actual_send_time": 1040.3422315120697,
+  "request_duration": 59.12159013748169,
+  "completion_time": 1099.4638578891754,
+  "status_code": 200,
+  "prompt_idxs": [
+    122
+  ],
+  "response": {
+    "model": "yusenh-system-3",
+    "choices": [
+      {
+        "index": 0,
+        "text": "Generation: Multi-generational  \n\nActivity 1: Family Story Circle  \nEach family member shares a personal story or memory, encouraging active listening and empathy. This builds trust, validates experiences, and fosters connection across age groups with minimal resources.  \n\nActivity 2: Weekly Gratitude Jar  \nFamily members write down things they\u2019re grateful for and place them in a jar. Regularly opening it promotes positivity, shared appreciation, and open communication.  \n\nActivity 3: Cooking Together  \nPrepare a simple meal or snack as a team. Involving all ages in planning and cooking builds cooperation, teaches responsibility, and enhances communication through shared tasks.  \n\nActivity 4: Nature Scavenger Hunt  \nCreate a simple list of natural items (e.g., a leaf, a rock) and go on a walk. It encourages bonding, active communication, and shared discovery in a fun, low-cost way.  \n\nActivity 5: Family Memory Wall  \nDisplay photos, drawings, or notes from past events. Creating and updating it together strengthens emotional connections and provides a visual record of shared experiences.",
+        "reasoning": "",
+        "prompt": "Instruction: Design a family-focused weekly activity plan consisting of five activities that promote togetherness, and communication. Each activity should be suitable for various age groups and require minimal resources. Include brief descriptions (30-50 words) explaining the purpose of each activity and how it strengthens family bonds.\nQuestion: \nGeneration:",
+        "finish_reason": "stop"
+      }
+    ]
+  },
+  "error": null
+}

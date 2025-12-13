@@ -1,0 +1,41 @@
+{
+  "batch_id": 45,
+  "batch_size": 3,
+  "scheduled_arrival_time": 599.8189210277235,
+  "actual_send_time": 599.8283758163452,
+  "request_duration": 107.42035746574402,
+  "completion_time": 707.2487664222717,
+  "status_code": 200,
+  "prompt_idxs": [
+    191,
+    215,
+    193
+  ],
+  "response": {
+    "model": "yusenh-system-2",
+    "choices": [
+      {
+        "index": 0,
+        "text": "DIVORCE SETTLEMENT AGREEMENT  \nBetween John Smith and Jane Smith  \n\nDate: April 5, 2023  \nMarriage Date: January 1, 2010  \nDuration of Marriage: 13 years  \nChild: Emma Smith (born July 15, 2009) \u2014 Age: 13 years  \n\nI. ACKNOWLEDGMENT  \nJohn Smith and Jane Smith, married on January 1, 2010, have mutually agreed to dissolve their marriage and settle all matters relating to property division, child custody, visitation, child support, and other financial and personal obligations. This agreement reflects a fair and equitable division of assets and liabilities, consistent with the principles of equitable distribution under applicable state law.  \n\nII. DIVISION OF ASSETS AND LIABILITIES  \nAll marital assets and liabilities are to be divided equally between John Smith and Jane Smith. This includes but is not limited to:  \n- Real estate (primary residence located at 123 Maple Street, Cityville)  \n- Bank accounts, retirement accounts (401(k), IRA), and investment portfolios  \n- Vehicles (one family sedan and one SUV)  \n- Debts (credit cards, mortgages, student loans)  \n\nEach party shall receive 50% of all marital property and assume 50% of all marital liabilities.  \n\nIII. CHILD CUSTODY AND VISITATION  \n\nA. Primary Custody  \nJane Smith shall be granted primary physical custody of their child, Emma Smith. This arrangement is supported by the following three factors:  \n\n1. **Age of the Child**  \nEmma is 13 years old. At this age, children are developing emotionally and socially, and stability in a consistent environment is critical. Jane has demonstrated a nurturing, responsive, and emotionally supportive parenting style, which has fostered a strong bond with Emma. A primary custodial arrangement with Jane provides Emma with continuity in school, extracurricular activities, and social relationships.  \n\n2. **Employment and Income Status**  \nJane Smith is currently employed as a high school social studies teacher, earning an annual salary of $65,000. John Smith is employed as a software developer, earning an annual salary of $95,000. While John has higher current income, Jane\u2019s stable, full-time employment in a consistent educational environment provides Emma with access to structured routines, school support, and emotional security. Jane\u2019s work schedule allows for predictable, consistent parenting, which is essential for a child\u2019s development.  \n\n3. **Education Level and Future Earning Capacity**  \nJane holds a Bachelor\u2019s degree in Education and is pursuing a Master\u2019s in Educational Leadership. John holds a Bachelor\u2019s degree in Computer Science. Jane\u2019s educational background and career trajectory in education support her role as a primary caregiver, as she is well-equipped to manage the child\u2019s academic, emotional, and developmental needs. Her future earning capacity is strong, particularly in public education, and she is likely to maintain a stable, long-term career path.  \n\nB. Visitation Rights  \nJohn Smith shall have full and regular visitation rights with Emma Smith as follows:  \n- Every other weekend (Friday 6:00 PM to Sunday 6:00 PM)  \n- Two consecutive weekdays during school breaks (one in the spring, one in the summer)  \n- One full week-long visitation during the summer months (June 1\u2013July 1)  \n- Holiday visitation: Christmas, Thanksgiving, and birthdays, with John having the day before or after the holiday.  \n\nAll visitation shall occur at the primary residence (123 Maple Street) unless otherwise agreed in writing. Emma shall be transported to and from visits by one of",
+        "reasoning": "",
+        "prompt": "Instruction: Please generate a divorce settlement agreement between John Smith and Jane Smith who were married on January 1, 2010. They've been married for 13 years and have one child. The division of assets and liabilities should be equal. \n\nIn the agreement, include the following five details: \n\n1. The age of their child\n2. The employment and income status of each parent\n3. The education level of each parent\n4. Future earning capacities of each parent\n5. Any marital misconduct that may have occurred\n\nFrom these five details, select three that support Jane Smith as the primary custodian of the child, and two that support John Smith. Your choices should be justified with valid explanations and reasoning.\n\nAlso include in the agreement terms related to child custody, visitation rights, and child support arrangements.\nQuestion: \nGeneration:",
+        "finish_reason": "length"
+      },
+      {
+        "index": 1,
+        "text": "Malonyl-CoA is a key intermediate in fatty acid synthesis and a potent inhibitor of fatty acid oxidation. It is produced in the cytoplasm by acetyl-CoA carboxylase (ACC), which is activated by insulin and inhibited by AMPK. In the context of hyperglycemia and hyperinsulinemia, insulin promotes the activation of acetyl-CoA carboxylase, leading to increased malonyl-CoA levels.\n\nMalonyl-CoA directly inhibits carnitine palmitoyltransferase I (CPT-I), the rate-limiting enzyme that allows long-chain fatty acids to enter the mitochondria for oxidation. Therefore, elevated malonyl-CoA inhibits fatty acid oxidation.\n\nThus, the increased malonyl-CoA concentration most likely directly inhibits fatty acid oxidation.\n\nThe answer is (A)",
+        "reasoning": "",
+        "prompt": "The following is a multiple choice question (with answers) about  professional medicine.  Output the answer in the format of \"The answer is (X)\" at the end.\n\nQuestion: Six healthy subjects participate in a study of muscle metabolism during which hyperglycemia and hyperinsulinemia is induced. Muscle biopsy specimens obtained from the subjects during the resting state show significantly increased concentrations of malonyl-CoA. The increased malonyl-CoA concentration most likely directly inhibits which of the following processes in these subjects?\n Options:\nA. Fatty acid oxidation\nB. Fatty acid synthesis\nC. Gluconeogenesis\nD. Glycogenolysis\nAnswer:",
+        "finish_reason": "stop"
+      },
+      {
+        "index": 2,
+        "text": "- Apple Magic Mouse  \n- Apple Magic Keyboard  \n- Apple Pencil (1st generation)  \n- iPad (with Apple Pencil)  \n- iPhone (any model)  \n- Apple Watch  \n- Thunderbolt 3 (USB-C) Cable  \n- Apple USB-C to USB-A Adapter  \n- Apple 128GB or 256GB SSD (for upgrades)  \n- External Monitor (e.g., 27\u201d or 24\u201d Thunderbolt Display)  \n- Office Productivity Suite (e.g., Microsoft 365 or Google Workspace)  \n- Wireless Earbuds (e.g., AirPods Pro or AirPods)  \n- Laptop Backpack or Case (e.g., Apple or third-party protective case)  \n- Screen Protector for MacBook Air  \n\nNote: Bundles vary by region, model, and retailer, but these are commonly purchased together due to ecosystem synergy and user needs.",
+        "reasoning": "",
+        "prompt": "Instruction: Suggest some product bundles that are often purchased with a given product.\nQuestion: MacBook Air\nGeneration:",
+        "finish_reason": "stop"
+      }
+    ]
+  },
+  "error": null
+}

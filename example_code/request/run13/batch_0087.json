@@ -1,0 +1,25 @@
+{
+  "batch_id": 87,
+  "batch_size": 1,
+  "scheduled_arrival_time": 1040.3419653836763,
+  "actual_send_time": 1040.343599319458,
+  "request_duration": 41.1104302406311,
+  "completion_time": 1081.454065322876,
+  "status_code": 200,
+  "prompt_idxs": [
+    122
+  ],
+  "response": {
+    "model": "yusenh-system-1",
+    "choices": [
+      {
+        "index": 0,
+        "text": "Generation: Multi-generational  \n\nWeekly Activity Plan:  \n\n1. **Family Story Circle**  \nEach family member shares a personal story or memory, fostering active listening and emotional expression. This builds empathy, encourages open communication, and creates a safe space for all ages to feel valued and heard.  \n\n2. **Shared Recipe Creation**  \nGrandparents pass down traditional recipes while all family members participate in cooking. This promotes intergenerational knowledge exchange, teamwork, and strengthens bonds through shared experiences and collaboration.  \n\n3. **Weekly Gratitude Wall**  \nEach person writes one thing they\u2019re grateful for on a sticky note and adds it to a shared wall. This nurtures positive communication, encourages appreciation, and builds a sense of unity and shared joy.  \n\n4. **Family Scavenger Hunt**  \nA simple, age-appropriate hunt is designed with clues that lead to items around the house. It promotes teamwork, laughter, and active engagement across age groups with minimal resources.  \n\n5. **Together Time Journal**  \nEach family member writes or draws one thing they enjoyed or learned during the week. Shared weekly reviews strengthen communication, encourage reflection, and create a lasting record of family experiences.",
+        "reasoning": "",
+        "prompt": "Instruction: Design a family-focused weekly activity plan consisting of five activities that promote togetherness, and communication. Each activity should be suitable for various age groups and require minimal resources. Include brief descriptions (30-50 words) explaining the purpose of each activity and how it strengthens family bonds.\nQuestion: \nGeneration:",
+        "finish_reason": "stop"
+      }
+    ]
+  },
+  "error": null
+}

@@ -1,0 +1,25 @@
+{
+  "batch_id": 49,
+  "batch_size": 1,
+  "scheduled_arrival_time": 653.8187137264767,
+  "actual_send_time": 653.8213696479797,
+  "request_duration": 21.48673439025879,
+  "completion_time": 675.3081376552582,
+  "status_code": 200,
+  "prompt_idxs": [
+    183
+  ],
+  "response": {
+    "model": "yusenh-system-2",
+    "choices": [
+      {
+        "index": 0,
+        "text": "Master any language\u2014fun, fast, and totally personalized! Our online platform delivers engaging lessons designed for students who want real progress, not just theory. Interactive tools like live chats, quizzes, and voice recognition make learning exciting and effective. Every student gets a unique learning plan tailored to their pace and goals.  \n\nAnd here\u2019s what sets us apart: **Flexible pricing\u2014choose monthly, annual, or a 3-month trial with no hidden fees.** Plus, new students get 50% off their first month!  \n\nNo more boring textbooks. No more wasted time. Just smart, adaptive lessons that grow with you. Start today and speak confidently in your target language\u2014anywhere, anytime.  \n\nEnroll now and take control of your language journey!",
+        "reasoning": "",
+        "prompt": "Instruction: Compose an advertisement for an online language learning platform aimed at students with no more than 120 words. The advertisement should emphasize the platform's engaging lessons, interactive tools, and personalized learning plans. Additionally, highlight at least one unique feature, such as pricing options, or special offers that set the platform apart from competitors. Consider using persuasive language to attract potential users.\nQuestion: \nGeneration:",
+        "finish_reason": "stop"
+      }
+    ]
+  },
+  "error": null
+}

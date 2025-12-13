@@ -1,0 +1,25 @@
+{
+  "batch_id": 6,
+  "batch_size": 1,
+  "scheduled_arrival_time": 71.57614436968281,
+  "actual_send_time": 71.57959485054016,
+  "request_duration": 100.34432196617126,
+  "completion_time": 171.92395496368408,
+  "status_code": 200,
+  "prompt_idxs": [
+    273
+  ],
+  "response": {
+    "model": "yusenh-system-3",
+    "choices": [
+      {
+        "index": 0,
+        "text": "The answer is (C)",
+        "reasoning": "",
+        "prompt": "The following is a multiple choice question (with answers) about  college medicine.  Output the answer in the format of \"The answer is (X)\" at the end.\n\nQuestion: Anaerobic metabolism refers to the generation of ATP:\n Options:\nA. without the involvement of ADP.\nB. without the use of glycogen.\nC. without the use of oxygen.\nD. in the absence of available oxygen.\nAnswer:",
+        "finish_reason": "stop"
+      }
+    ]
+  },
+  "error": null
+}

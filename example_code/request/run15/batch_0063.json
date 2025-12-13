@@ -1,0 +1,41 @@
+{
+  "batch_id": 63,
+  "batch_size": 3,
+  "scheduled_arrival_time": 793.4768246432019,
+  "actual_send_time": 793.4790132045746,
+  "request_duration": 34.14402770996094,
+  "completion_time": 827.6230797767639,
+  "status_code": 200,
+  "prompt_idxs": [
+    290,
+    295,
+    152
+  ],
+  "response": {
+    "model": "yusenh-system-3",
+    "choices": [
+      {
+        "index": 0,
+        "text": "The answer is (D)",
+        "reasoning": "",
+        "prompt": "The following is a multiple choice question (with answers) about  professional medicine.  Output the answer in the format of \"The answer is (X)\" at the end.\n\nQuestion: A 47-year-old woman comes to the physician because of persistent nonproductive cough for 6 weeks. She has not had fever or weight loss. She has hypertension treated with enalapril for the past 3 months. She does not smoke. There is no history of lung disease. She weighs 54 kg (120 lb) and is 163 cm (64 in) tall. Her temperature is 37\u00b0C (98.6\u00b0F), blood pressure is 130/80 mm Hg, pulse is 70/min, and respirations are 12/min. Examination and an x-ray of the chest show no abnormalities. Which of the following is the most likely mechanism of this patient's cough?\n Options:\nA. Decreased plasma renin activity\nB. Decreased serum angiotensin II concentrations\nC. Increased serum angiotensin I concentrations\nD. Increased serum bradykinin concentrations\nAnswer:",
+        "finish_reason": "stop"
+      },
+      {
+        "index": 1,
+        "text": "The answer is (D)",
+        "reasoning": "",
+        "prompt": "The following is a multiple choice question (with answers) about  professional medicine.  Output the answer in the format of \"The answer is (X)\" at the end.\n\nQuestion: A 22-year-old woman comes to the office because of urticaria. This is her first episode of urticaria and it has occurred and then resolved several times in the past week. The history and physical examination disclose no abnormalities. Which of the following is the most appropriate course of action?\n Options:\nA. Determine the serum IgE concentration\nB. Determine the total eosinophil count\nC. Refer her to an allergist\nD. Treat the symptoms\nAnswer:",
+        "finish_reason": "stop"
+      },
+      {
+        "index": 2,
+        "text": "*Matilda* is a children's novel by Roald Dahl, telling the story of a bright, imaginative, and fiercely intelligent girl named Matilda who lives in a quiet, unremarkable household. Despite facing a neglectful and often cruel family, Matilda possesses a strong sense of justice and a deep desire for fairness. With the help of her kind neighbor, Miss Trunchbull, and her own remarkable intelligence, she stands up to injustice and ultimately finds her voice in a world that tries to silence her. The story emphasizes themes of courage, intelligence, and the power of standing up for what is right.",
+        "reasoning": "",
+        "prompt": "Instruction: Give a brief description of the book that you are given.\nQuestion: Matilda\nGeneration:",
+        "finish_reason": "stop"
+      }
+    ]
+  },
+  "error": null
+}

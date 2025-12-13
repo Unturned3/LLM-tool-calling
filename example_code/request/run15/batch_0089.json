@@ -1,0 +1,33 @@
+{
+  "batch_id": 89,
+  "batch_size": 2,
+  "scheduled_arrival_time": 1096.1028731922158,
+  "actual_send_time": 1096.1042168140411,
+  "request_duration": 1.0993030071258545,
+  "completion_time": 1097.2035584449768,
+  "status_code": 200,
+  "prompt_idxs": [
+    298,
+    212
+  ],
+  "response": {
+    "model": "yusenh-system-3",
+    "choices": [
+      {
+        "index": 0,
+        "text": "The answer is (D)",
+        "reasoning": "",
+        "prompt": "The following is a multiple choice question (with answers) about  professional medicine.  Output the answer in the format of \"The answer is (X)\" at the end.\n\nQuestion: A 35-year-old woman comes to the physician because of two 12-hour episodes of dizziness over the past 3 months. During episodes, she experiences the acute onset of rotatory vertigo and imbalance, decreased hearing, tinnitus, a sense of fullness of the right ear, and vomiting. Examination shows a mild hearing loss of the right ear. Which of the following is the most likely diagnosis?\n Options:\nA. Acoustic neuroma\nB. Benign positional vertigo\nC. Brain stem transient ischemic attacks\nD. Meniere's disease\nAnswer:",
+        "finish_reason": "stop"
+      },
+      {
+        "index": 1,
+        "text": "The answer is (A)",
+        "reasoning": "",
+        "prompt": "The following is a multiple choice question (with answers) about  professional medicine.  Output the answer in the format of \"The answer is (X)\" at the end.\n\nQuestion: A 65-year-old female is admitted to the hospital after experiencing aphasia and right-sided hemiparesis. She subsequently develops urinary incontinence. There is no evidence of urinary tract infection and no prior history of urinary pathology. The most likely diagnosis is\n Options:\nA. autonomic neurogenic bladderv\nB. motor paralytic bladder\nC. reflex neurogenic bladder\nD. uninhibited neurogenic bladder\nAnswer:",
+        "finish_reason": "stop"
+      }
+    ]
+  },
+  "error": null
+}

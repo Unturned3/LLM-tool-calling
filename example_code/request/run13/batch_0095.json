@@ -1,0 +1,25 @@
+{
+  "batch_id": 95,
+  "batch_size": 1,
+  "scheduled_arrival_time": 1140.068877067297,
+  "actual_send_time": 1140.0698850154877,
+  "request_duration": 35.44499349594116,
+  "completion_time": 1175.5149121284485,
+  "status_code": 200,
+  "prompt_idxs": [
+    228
+  ],
+  "response": {
+    "model": "yusenh-system-1",
+    "choices": [
+      {
+        "index": 0,
+        "text": "The patient is a 65-year-old woman with a long-standing neck mass, progressive symptoms of hyperthyroidism (irritability, palpitations, heat intolerance, weight loss, bowel movements), and a 131I scan showing an enlarged thyroid with both increased and decreased uptake. This pattern of heterogeneous uptake is characteristic of a multinodular goiter, which can contain both hyperfunctioning (hot) and hypofunctioning (cold) nodules. While Graves' disease typically presents with diffuse increased uptake on a 131I scan and is associated with autoimmune markers, the presence of multiple areas of increased and decreased uptake is more consistent with a multinodular goiter, especially in an older patient with a long-standing neck mass.\n\nGraves' disease (B) usually shows diffuse, uniform increased uptake, not heterogeneous uptake. A defect in T4 biosynthesis (A) would present with hypothyroidism, not hyperthyroidism. Riedel's thyroiditis (D) is a chronic, fibrosing inflammation that typically presents with a firm, fixed thyroid mass and hypothyroidism, not hyperthyroidism.\n\nTherefore, the most likely diagnosis is a multinodular goiter.\n\nThe answer is (C)",
+        "reasoning": "",
+        "prompt": "The following is a multiple choice question (with answers) about  professional medicine.  Output the answer in the format of \"The answer is (X)\" at the end.\n\nQuestion: A 65-year-old woman has a 6-month history of progressive irritability, palpitations, heat intolerance, frequent bowel movements, and a 6.8-kg (15-lb) weight loss. She has had a neck mass for more than 10 years. 131I scan shows an enlarged thyroid gland with multiple areas of increased and decreased uptake. Which of the following is the most likely diagnosis?\n Options:\nA. Defect in thyroxine (T4) biosynthesis\nB. Graves' disease\nC. Multinodular goiter\nD. Riedel's thyroiditis\nAnswer:",
+        "finish_reason": "stop"
+      }
+    ]
+  },
+  "error": null
+}

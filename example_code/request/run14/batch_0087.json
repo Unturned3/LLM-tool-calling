@@ -1,0 +1,25 @@
+{
+  "batch_id": 87,
+  "batch_size": 1,
+  "scheduled_arrival_time": 1040.3419653836763,
+  "actual_send_time": 1040.3432667255402,
+  "request_duration": 36.15205502510071,
+  "completion_time": 1076.4953565597534,
+  "status_code": 200,
+  "prompt_idxs": [
+    122
+  ],
+  "response": {
+    "model": "yusenh-system-2",
+    "choices": [
+      {
+        "index": 0,
+        "text": "Generation: All Ages  \n\n1. **Family Story Circle**  \nEach family member shares a personal story or memory, fostering active listening and emotional expression. This builds empathy, encourages open communication, and creates a safe space for all voices\u2014especially valuable for younger children and elders.  \n\n2. **Cooking Together**  \nPrepare a simple meal or snack as a team. This promotes collaboration, teaches shared responsibility, and allows everyone to contribute, from setting up to tasting. Shared experiences around food deepen connection and create lasting memories.  \n\n3. **Weekly Family Game Night**  \nPlay cooperative or family-friendly games like charades or card games. These encourage laughter, turn-taking, and communication, helping all ages engage in a fun, low-pressure environment.  \n\n4. **Nature Walk & Discovery**  \nTake a short walk to observe nature\u2014identify plants, animals, or interesting objects. This promotes mindful presence, shared curiosity, and conversation, strengthening bonds through shared experiences in a relaxed setting.  \n\n5. **Family Memory Wall**  \nCreate a visual display of photos, drawings, or notes from special moments. This activity encourages reflection, appreciation of shared history, and open dialogue about family values and milestones.",
+        "reasoning": "",
+        "prompt": "Instruction: Design a family-focused weekly activity plan consisting of five activities that promote togetherness, and communication. Each activity should be suitable for various age groups and require minimal resources. Include brief descriptions (30-50 words) explaining the purpose of each activity and how it strengthens family bonds.\nQuestion: \nGeneration:",
+        "finish_reason": "stop"
+      }
+    ]
+  },
+  "error": null
+}

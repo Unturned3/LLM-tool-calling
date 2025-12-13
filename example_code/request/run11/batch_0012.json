@@ -1,0 +1,25 @@
+{
+  "batch_id": 12,
+  "batch_size": 1,
+  "scheduled_arrival_time": 116.70823005698357,
+  "actual_send_time": 116.70978569984436,
+  "request_duration": 2.1785495281219482,
+  "completion_time": 118.8883707523346,
+  "status_code": 200,
+  "prompt_idxs": [
+    197
+  ],
+  "response": {
+    "model": "yusenh-2",
+    "choices": [
+      {
+        "index": 0,
+        "text": "The movie is \"The Prestige.\"",
+        "reasoning": "",
+        "prompt": "Instruction: The story of a movie has been described using many emojis. You need to guess the name of the movie based on the emojis.\nQuestion: \ud83e\uddd9\u200d\u2642\ufe0f\ud83d\udeaa\ud83d\udcda\ud83e\udd85\u26a1\nGeneration:",
+        "finish_reason": "stop"
+      }
+    ]
+  },
+  "error": null
+}

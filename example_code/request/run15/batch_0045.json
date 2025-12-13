@@ -1,0 +1,41 @@
+{
+  "batch_id": 45,
+  "batch_size": 3,
+  "scheduled_arrival_time": 599.8189210277235,
+  "actual_send_time": 599.8283748626709,
+  "request_duration": 189.41064524650574,
+  "completion_time": 789.2390577793121,
+  "status_code": 200,
+  "prompt_idxs": [
+    191,
+    215,
+    193
+  ],
+  "response": {
+    "model": "yusenh-system-3",
+    "choices": [
+      {
+        "index": 0,
+        "text": "DIVORCE SETTLEMENT AGREEMENT  \nBetween John Smith and Jane Smith  \nDate: April 5, 2023  \n\nI. BACKGROUND  \nJohn Smith and Jane Smith were married on January 1, 2010. They have been married for 13 years and have one child, Emma Smith. This agreement outlines the division of assets, liabilities, and parenting responsibilities following their divorce.  \n\nII. CHILD DETAILS  \n1. Age of their child: Emma Smith is 12 years old.  \n\nIII. EMPLOYMENT AND INCOME STATUS  \n- Jane Smith is a registered nurse employed full-time at a local hospital, earning an annual income of $85,000.  \n- John Smith is a part-time software developer working remotely, earning an annual income of $45,000.  \n\nIV. EDUCATION LEVEL  \n- Jane Smith holds a Bachelor of Science in Nursing and a Master of Science in Healthcare Administration.  \n- John Smith holds a Bachelor of Science in Computer Science.  \n\nV. FUTURE EARNING CAPACITIES  \n- Jane Smith has demonstrated consistent career growth and is currently pursuing certification in healthcare management, indicating a strong potential for increased earning capacity.  \n- John Smith has a stable career path with potential for advancement in software development, but his part-time status limits growth opportunities.  \n\nVI. MARITAL MISCONDUCT  \nNo marital misconduct has been substantiated or admitted by either party. Both parties affirm that the marriage has been marked by mutual respect, shared responsibilities, and no instances of physical, emotional, or financial abuse.  \n\nSELECTION OF CUSTODY FACTORS  \n\nSelected Factors Supporting Jane Smith as Primary Custodian:  \n\n1. Age of their child (Emma is 12 years old):  \n   - At age 12, Emma is in a developmental stage where consistent emotional and educational stability is critical. Jane has demonstrated a strong, nurturing environment at home, with active involvement in Emma\u2019s school activities and extracurriculars. This stability supports her role as the primary custodian.  \n\n2. Employment and income status:  \n   - Jane\u2019s full-time, stable income provides a reliable financial foundation for Emma\u2019s education, extracurriculars, and healthcare. This financial stability is essential for a child\u2019s well-being and long-term development. John\u2019s part-time employment and lower income make it more difficult to provide consistent support.  \n\n3. Education level and future earning capacity:  \n   - Jane\u2019s advanced education and career trajectory position her to provide a high-quality, structured environment that supports Emma\u2019s academic and emotional development. Her professional background also enables her to engage in educational decisions, such as school choice and extracurriculars, with informed insight.  \n\nFactors Supporting John Smith:  \n\n1. Future earning capacity:  \n   - While John\u2019s current income is lower, his skills in software development are in high demand, and he has a clear path to full-time, higher-paying roles. This potential for future income growth may benefit Emma in the long term if shared responsibilities are balanced.  \n\n2. Marital misconduct (none reported):  \n   - The absence of misconduct supports a cooperative and respectful divorce process. While not a direct factor in custody, it reinforces the stability of the home environment and the ability of both parents to co-parent effectively.  \n\nVII. CHILD CUSTODY AND VISITATION  \n- Jane Smith shall have primary physical custody of Emma Smith.  \n- John Smith shall have visitation rights every other weekend (Friday at 6:00 PM to Sunday at 6:00 PM), alternating with Jane\u2019s schedule.  \n- During school breaks and holidays (e.g., summer, winter break), visitation will be shared equally: John will have one week of vacation per",
+        "reasoning": "",
+        "prompt": "Instruction: Please generate a divorce settlement agreement between John Smith and Jane Smith who were married on January 1, 2010. They've been married for 13 years and have one child. The division of assets and liabilities should be equal. \n\nIn the agreement, include the following five details: \n\n1. The age of their child\n2. The employment and income status of each parent\n3. The education level of each parent\n4. Future earning capacities of each parent\n5. Any marital misconduct that may have occurred\n\nFrom these five details, select three that support Jane Smith as the primary custodian of the child, and two that support John Smith. Your choices should be justified with valid explanations and reasoning.\n\nAlso include in the agreement terms related to child custody, visitation rights, and child support arrangements.\nQuestion: \nGeneration:",
+        "finish_reason": "length"
+      },
+      {
+        "index": 1,
+        "text": "The answer is (A)",
+        "reasoning": "",
+        "prompt": "The following is a multiple choice question (with answers) about  professional medicine.  Output the answer in the format of \"The answer is (X)\" at the end.\n\nQuestion: Six healthy subjects participate in a study of muscle metabolism during which hyperglycemia and hyperinsulinemia is induced. Muscle biopsy specimens obtained from the subjects during the resting state show significantly increased concentrations of malonyl-CoA. The increased malonyl-CoA concentration most likely directly inhibits which of the following processes in these subjects?\n Options:\nA. Fatty acid oxidation\nB. Fatty acid synthesis\nC. Gluconeogenesis\nD. Glycogenolysis\nAnswer:",
+        "finish_reason": "stop"
+      },
+      {
+        "index": 2,
+        "text": "- Apple USB-C to Thunderbolt 4 Cable (20-inch)  \n- Apple Magic Mouse 2  \n- Apple Magic Keyboard with Numeric Keypad  \n- Apple Pencil (2nd generation)  \n- iPhone 14 or newer (for ecosystem synergy)  \n- iPad (for creative work or multitasking)  \n- Apple Watch (for productivity and health tracking)  \n- External SSD (e.g., 2TB USB 3.0)  \n- Noise-cancelling headphones (e.g., Apple AirPods Pro)  \n- MacBook Air Screen Protector  \n\nNote: Bundles vary by region, retailer, and promotions. Always check official Apple or retailer listings for current bundle offers.",
+        "reasoning": "",
+        "prompt": "Instruction: Suggest some product bundles that are often purchased with a given product.\nQuestion: MacBook Air\nGeneration:",
+        "finish_reason": "stop"
+      }
+    ]
+  },
+  "error": null
+}

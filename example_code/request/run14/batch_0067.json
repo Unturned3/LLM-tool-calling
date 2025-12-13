@@ -1,0 +1,25 @@
+{
+  "batch_id": 67,
+  "batch_size": 1,
+  "scheduled_arrival_time": 835.6563556806509,
+  "actual_send_time": 835.6580691337585,
+  "request_duration": 19.57252264022827,
+  "completion_time": 855.2306272983551,
+  "status_code": 200,
+  "prompt_idxs": [
+    299
+  ],
+  "response": {
+    "model": "yusenh-system-2",
+    "choices": [
+      {
+        "index": 0,
+        "text": "The gustatory (taste) system and the olfactory (smell) system are both chemically based because they detect chemical molecules. \n\n- The gustatory system detects taste molecules (e.g., sweet, salty, bitter) via taste receptors on the tongue.\n- The olfactory system detects odor molecules in the air via olfactory receptors in the nose.\n\nIn contrast, the auditory system is based on mechanical and electrical transduction of sound waves (vibrations), not chemical interactions.\n\nTherefore, the chemically based sensory systems are I (gustatory) and III (olfactory).\n\nThe answer is (D)",
+        "reasoning": "",
+        "prompt": "The following is a multiple choice question (with answers) about  college medicine.  Output the answer in the format of \"The answer is (X)\" at the end.\n\nQuestion: Which of the following statements identifies a chemically based sensory system?\nI. Gustatory system\nII. Auditory system\nIII. Olfactory system\n Options:\nA. I only\nB. II only\nC. III only\nD. I and III only\nAnswer:",
+        "finish_reason": "stop"
+      }
+    ]
+  },
+  "error": null
+}

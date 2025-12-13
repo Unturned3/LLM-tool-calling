@@ -1,0 +1,33 @@
+{
+  "batch_id": 89,
+  "batch_size": 2,
+  "scheduled_arrival_time": 1096.1028731922158,
+  "actual_send_time": 1096.1036019325256,
+  "request_duration": 72.76250314712524,
+  "completion_time": 1168.8661332130432,
+  "status_code": 200,
+  "prompt_idxs": [
+    298,
+    212
+  ],
+  "response": {
+    "model": "yusenh-system-2",
+    "choices": [
+      {
+        "index": 0,
+        "text": "The patient presents with recurrent episodes of vertigo, hearing loss, tinnitus, a sense of fullness in the right ear, and vomiting. These symptoms are characteristic of Meniere's disease, which is defined by episodic vertigo, sensorineural hearing loss, tinnitus, and a feeling of fullness in the affected ear. The episodes are typically self-limited and last for hours to days, which matches the patient's description of 12-hour episodes over several months.\n\nWhile acoustic neuroma (A) can cause similar symptoms, it is usually more slowly progressive and often presents with progressive hearing loss without vertigo or tinnitus, and imaging would be needed for diagnosis. Benign positional vertigo (B) causes brief episodes of vertigo triggered by head movement, but not with hearing loss, tinnitus, or fullness. Brain stem transient ischemic attacks (C) can cause vertigo, but they are typically associated with neurological deficits and are not characterized by hearing loss or tinnitus.\n\nTherefore, the most likely diagnosis is Meniere's disease.\n\nThe answer is (D)",
+        "reasoning": "",
+        "prompt": "The following is a multiple choice question (with answers) about  professional medicine.  Output the answer in the format of \"The answer is (X)\" at the end.\n\nQuestion: A 35-year-old woman comes to the physician because of two 12-hour episodes of dizziness over the past 3 months. During episodes, she experiences the acute onset of rotatory vertigo and imbalance, decreased hearing, tinnitus, a sense of fullness of the right ear, and vomiting. Examination shows a mild hearing loss of the right ear. Which of the following is the most likely diagnosis?\n Options:\nA. Acoustic neuroma\nB. Benign positional vertigo\nC. Brain stem transient ischemic attacks\nD. Meniere's disease\nAnswer:",
+        "finish_reason": "stop"
+      },
+      {
+        "index": 1,
+        "text": "The patient is a 65-year-old female who presents with aphasia and right-sided hemiparesis, indicating a stroke affecting the left hemisphere (due to contralateral motor and language deficits). She develops urinary incontinence without infection or prior urinary pathology. The presence of hemiparesis suggests damage to the central nervous system, specifically the motor pathways, which can affect bladder control.\n\nIn stroke patients, particularly those with hemiparesis, the most common type of neurogenic bladder is due to disruption of the descending motor pathways to the bladder. This leads to a loss of voluntary control over the bladder, resulting in an inability to initiate voiding \u2014 a condition known as **motor paralytic bladder** (also called detrusor areflexia or areflexic bladder), where the detrusor muscle cannot contract properly due to loss of neural input.\n\nLet\u2019s evaluate the options:\n\n- A. Autonomic neurogenic bladder: This refers to dysfunction of the autonomic nervous system (sympathetic or parasympathetic) leading to bladder overactivity or underactivity. It's more common in spinal cord injury or peripheral neuropathy, not typical in stroke.\n- B. Motor paralytic bladder: This results from loss of voluntary control due to damage to the central motor pathways (e.g., stroke). The detrusor muscle cannot contract effectively due to lack of efferent stimulation. This fits the clinical scenario.\n- C. Reflex neurogenic bladder: This occurs when the bladder contracts involuntarily due to loss of cortical control and reflex arc activation (e.g., in spinal cord injury). It is more common in complete spinal cord lesions, not typically in isolated stroke.\n- D. Uninhibited neurogenic bladder: This refers to a bladder that is overactive and voids involuntarily due to lack of inhibition (e.g., in spinal cord injury). This is not the typical presentation in stroke.\n\nIn the setting of a stroke with hemiparesis, the most likely mechanism is disruption of the descending motor pathways, leading to **motor paralytic bladder**.\n\nThe answer is (B)",
+        "reasoning": "",
+        "prompt": "The following is a multiple choice question (with answers) about  professional medicine.  Output the answer in the format of \"The answer is (X)\" at the end.\n\nQuestion: A 65-year-old female is admitted to the hospital after experiencing aphasia and right-sided hemiparesis. She subsequently develops urinary incontinence. There is no evidence of urinary tract infection and no prior history of urinary pathology. The most likely diagnosis is\n Options:\nA. autonomic neurogenic bladderv\nB. motor paralytic bladder\nC. reflex neurogenic bladder\nD. uninhibited neurogenic bladder\nAnswer:",
+        "finish_reason": "stop"
+      }
+    ]
+  },
+  "error": null
+}

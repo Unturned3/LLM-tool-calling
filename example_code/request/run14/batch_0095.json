@@ -1,0 +1,25 @@
+{
+  "batch_id": 95,
+  "batch_size": 1,
+  "scheduled_arrival_time": 1140.068877067297,
+  "actual_send_time": 1140.0707848072052,
+  "request_duration": 55.368935346603394,
+  "completion_time": 1195.439754486084,
+  "status_code": 200,
+  "prompt_idxs": [
+    228
+  ],
+  "response": {
+    "model": "yusenh-system-2",
+    "choices": [
+      {
+        "index": 0,
+        "text": "The patient is a 65-year-old woman with a 6-month history of symptoms consistent with hyperthyroidism: irritability, palpitations, heat intolerance, frequent bowel movements, and significant weight loss. She also has a long-standing neck mass (>10 years) and a 131I scan showing an enlarged thyroid with both areas of increased and decreased uptake \u2014 a finding suggestive of a multinodular goiter with some areas of autonomous hyperfunction.\n\nLet\u2019s evaluate the options:\n\nA. Defect in thyroxine (T4) biosynthesis \u2014 This would typically present with hypothyroidism, not hyperthyroidism. Incorrect.\n\nB. Graves' disease \u2014 This is a common cause of hyperthyroidism and often shows diffuse increased uptake on 131I scan, with no areas of decreased uptake. However, Graves' disease typically presents with diffuse, uniform increased uptake, not both increased and decreased. Also, Graves' disease is more common in younger women, and the long-standing neck mass (over 10 years) is less typical. Less likely in this context.\n\nC. Multinodular goiter \u2014 This is a common condition in older adults, especially with long-standing neck masses. It can lead to hyperthyroidism due to one or more nodules having autonomous function. The 131I scan showing both increased and decreased uptake is classic for a multinodular goiter with some nodules being hyperfunctioning (hot nodules) and others hypofunctioning (cold nodules). This matches the clinical and imaging findings well.\n\nD. Riedel's thyroiditis \u2014 This is a rare, chronic inflammatory condition that causes fibrosis and usually presents with a firm, fixed neck mass and hypothyroidism. It does not typically cause hyperthyroidism. Incorrect.\n\nTherefore, the most likely diagnosis is a multinodular goiter with hyperfunctioning nodules.\n\nThe answer is (C)",
+        "reasoning": "",
+        "prompt": "The following is a multiple choice question (with answers) about  professional medicine.  Output the answer in the format of \"The answer is (X)\" at the end.\n\nQuestion: A 65-year-old woman has a 6-month history of progressive irritability, palpitations, heat intolerance, frequent bowel movements, and a 6.8-kg (15-lb) weight loss. She has had a neck mass for more than 10 years. 131I scan shows an enlarged thyroid gland with multiple areas of increased and decreased uptake. Which of the following is the most likely diagnosis?\n Options:\nA. Defect in thyroxine (T4) biosynthesis\nB. Graves' disease\nC. Multinodular goiter\nD. Riedel's thyroiditis\nAnswer:",
+        "finish_reason": "stop"
+      }
+    ]
+  },
+  "error": null
+}

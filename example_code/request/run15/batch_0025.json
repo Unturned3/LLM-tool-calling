@@ -1,0 +1,33 @@
+{
+  "batch_id": 25,
+  "batch_size": 2,
+  "scheduled_arrival_time": 271.09506551424965,
+  "actual_send_time": 271.0991711616516,
+  "request_duration": 30.233195066452026,
+  "completion_time": 301.3324029445648,
+  "status_code": 200,
+  "prompt_idxs": [
+    175,
+    118
+  ],
+  "response": {
+    "model": "yusenh-system-3",
+    "choices": [
+      {
+        "index": 0,
+        "text": "Use `code` in your Markdown file.",
+        "reasoning": "",
+        "prompt": "Instruction: Convert the given HTML into Markdown format.\nQuestion: <code>Use `code` in your Markdown file.</code>\nGeneration:",
+        "finish_reason": "stop"
+      },
+      {
+        "index": 1,
+        "text": "Yes, children can watch *The Dark Knight* (2008) with parental guidance, but it is not recommended for very young children.\n\nReason: The movie contains intense scenes of violence, including gunfights, explosions, and a serious crime scene. There are also themes of crime, corruption, and moral ambiguity. Some scenes may be disturbing for younger viewers. While the film is not explicitly graphic or inappropriate in a sexual or vulgar sense, the tone and content may be too intense or complex for young children.\n\nRecommendation: Parents should consider the child's maturity level. Children aged 12 and older may be better equipped to understand and process the film\u2019s themes and violence. For younger children, it is advisable to avoid or view with a parent.",
+        "reasoning": "",
+        "prompt": "Instruction: Decide whether children can watch the given movie. Mention what makes it inappropriate if you think they can't.\nQuestion: The Dark Knight (2008)\nGeneration:",
+        "finish_reason": "stop"
+      }
+    ]
+  },
+  "error": null
+}

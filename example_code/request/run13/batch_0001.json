@@ -1,0 +1,57 @@
+{
+  "batch_id": 1,
+  "batch_size": 5,
+  "scheduled_arrival_time": 13.562899893086879,
+  "actual_send_time": 13.5714693069458,
+  "request_duration": 139.39859676361084,
+  "completion_time": 152.97010278701782,
+  "status_code": 200,
+  "prompt_idxs": [
+    150,
+    126,
+    131,
+    45,
+    114
+  ],
+  "response": {
+    "model": "yusenh-system-1",
+    "choices": [
+      {
+        "index": 0,
+        "text": "**Lecture Notes: Quantum Mechanics**\n\n---\n\n**1. Schr\u00f6dinger Equation**\n\n- The Schr\u00f6dinger equation is the fundamental equation of non-relativistic quantum mechanics, describing how the quantum state of a physical system evolves over time.  \n- It is a linear partial differential equation that governs the time-dependent behavior of a wave function, $\\psi(\\mathbf{r}, t)$, which encodes all information about a quantum system.  \n- The time-dependent Schr\u00f6dinger equation is given by:  \n  $$\n  i\\hbar \\frac{\\partial \\psi(\\mathbf{r}, t)}{\\partial t} = \\hat{H} \\psi(\\mathbf{r}, t)\n  $$  \n  where $\\hbar$ is the reduced Planck constant, $\\hat{H}$ is the Hamiltonian operator (representing total energy), and $\\psi(\\mathbf{r}, t)$ is the wave function.  \n- For a free particle, the Hamiltonian is $\\hat{H} = -\\frac{\\hbar^2}{2m} \\nabla^2$, leading to the time-independent form:  \n  $$\n  \\left( -\\frac{\\hbar^2}{2m} \\nabla^2 + V(\\mathbf{r}) \\right) \\psi(\\mathbf{r}) = E \\psi(\\mathbf{r})\n  $$  \n  known as the time-independent Schr\u00f6dinger equation, where $V(\\mathbf{r})$ is the potential energy and $E$ is the energy eigenvalue.  \n- The solutions to this equation provide quantized energy levels and probability distributions of particles in bound states (e.g., electron in an atom).\n\n---\n\n**2. Dirac Equation**\n\n- The Dirac equation is a relativistic wave equation derived by Paul Dirac in 1928 to describe spin-1/2 particles (e.g., electrons) in a way consistent with both quantum mechanics and special relativity.  \n- It naturally incorporates the concept of spin and predicts the existence of antimatter (e.g., positrons).  \n- The Dirac equation is given by:  \n  $$\n  \\left( i\\hbar \\gamma^\\mu \\partial_\\mu - mc \\right) \\psi = 0\n  $$  \n  where $\\psi$ is a four-component spinor field, $\\gamma^\\mu$ are the Dirac gamma matrices (satisfying $\\{\\gamma^\\mu, \\gamma^\\nu\\} = 2g^{\\mu\\nu}$), $\\partial_\\mu$ is the partial derivative, $m$ is the particle mass, and $c$ is the speed of light.  \n- The equation ensures that the energy spectrum is bounded from below and predicts negative energy states, which are interpreted as antiparticles.  \n- The Dirac equation reduces to the Klein-Gordon equation for massless particles and to the non-relativistic Schr\u00f6dinger equation in the limit $v \\ll c$.  \n- It forms the foundation of relativistic quantum field theory and is essential for describing electrons, positrons, and other fermions in high-energy physics.",
+        "reasoning": "",
+        "prompt": "Instruction: Please create concise and well-structured lecture notes on Quantum Mechanics, focusing on the following two topics: Schr\u00f6dinger Equation, and Dirac Equation. For each topic, provide several bullet points with brief explanations and include at least one relevant equation. To ensure the equation are easy to read, use LaTeX code to format them. \nQuestion: \nGeneration:",
+        "finish_reason": "stop"
+      },
+      {
+        "index": 1,
+        "text": "**ADVENTURE PARK ADULT OBSTACLE COURSE WAIVER & AGREEMENT**  \n\n**I. PARTICIPANT HEALTH DECLARATION**  \nI, ________________________________, hereby declare that:  \n- I am at least 18 years old.  \n- I am physically and mentally capable of participating in the obstacle course.  \n- I have no known medical conditions (e.g., heart problems, joint issues, epilepsy, mobility impairments) that would make participation unsafe.  \n- I am not under the influence of alcohol or drugs.  \n- I have read and understood the activity description, risks, and safety guidelines provided by Adventure Park.  \n\n*Signature:* ___________________________  \n*Date:* _______________  \n\n---\n\n**II. ACKNOWLEDGEMENT OF RISKS & POTENTIAL INJURIES**  \nBy participating, I acknowledge and accept the following risks and potential injuries:  \n- Falls from height or during movement (e.g., climbing, balancing).  \n- Sprains, strains, or fractures (e.g., wrists, ankles, knees).  \n- Head injuries (e.g., bumps, bruises, concussions).  \n- Cuts, lacerations, or abrasions from sharp objects or rough surfaces.  \n- Muscle fatigue or overexertion leading to injury.  \n- Loss of balance or slipping on wet or uneven surfaces.  \n- Injuries from contact with equipment (e.g., ropes, poles, gates).  \n- Exposure to extreme weather (e.g., heat, cold).  \n- Unexpected environmental hazards (e.g., uneven terrain, debris).  \n\nI understand that these risks cannot be completely eliminated, and I assume full responsibility for my own safety while participating.  \n\n*Signature:* ___________________________  \n*Date:* _______________  \n\n---\n\n**III. RELEASE OF LIABILITY**  \nI release, waive, and forever discharge Adventure Park, its employees, volunteers, partners, and affiliates from any and all claims, demands, or liabilities arising out of or related to my participation in the obstacle course, including but not limited to injuries, damages, or personal harm.  \n\nThis release includes claims for pain, suffering, medical expenses, lost wages, or emotional distress.  \n\n*Signature:* ___________________________  \n*Date:* _______________  \n\n---\n\n**IV. INDEMNIFICATION**  \nI agree to indemnify and hold harmless Adventure Park, its officers, employees, and volunteers from any claims, losses, or expenses (including legal fees) arising from my participation, including any injury or damage I may cause to others or property.  \n\n*Signature:* ___________________________  \n*Date:* _______________  \n\n---\n\n**V. AUTHORIZATION FOR MEDICAL TREATMENT**  \nI authorize Adventure Park and its medical personnel to provide immediate first aid, emergency care, or medical treatment necessary during or after the event. I understand that medical treatment may be administered without further consent if deemed necessary by a qualified professional.  \n\n*Signature:* ___________________________  \n*Date:* _______________  \n\n---\n\n**VI. EMERGENCY CONTACT INFORMATION**  \nPlease provide the following in case of emergency:  \n\nName: ___________________________  \nRelationship: _____________________  \nPhone: ___________________________  \nAlternate Phone: __________________  \n\n*Signature:* ___________________________  \n*Date:* _______________  \n\n---\n\n**SIGNATURE SECTION**  \nBy signing below, I confirm that I have read, understood, and voluntarily agreed to all terms of this waiver. I acknowledge that participation in the obstacle course involves inherent risks and that I assume full responsibility for my own safety and well-being.  \n\n**Participant Name:** ___________________________  \n**Signature:** ___________________________  \n**Date:** _______________  \n\n*Adventure Park reserves the right to refuse participation if a health concern is identified.*  \n\n---  \n*This form is valid for one event and must be signed before entry.*",
+        "reasoning": "",
+        "prompt": "Instruction: Design an activity waiver form for an adult obstacle course event organized by Adventure Park. The language should be clear and concise, limiting legal jargon to ensure easy understanding for participants. List individual risks and potential injuries with sections for participants to acknowledge and assume these risks, release liability, provide indemnification, and authorize medical treatment. The form should include space for emergency contact information, and a health declaration. Ensure that it has space for signature and date, stating that signing signifies understanding and agreement. \nQuestion: \nGeneration:",
+        "finish_reason": "stop"
+      },
+      {
+        "index": 2,
+        "text": "\"Avocados Aren't Just Healthy \u2014 They're Calorie-Dense, So Eat Them Wisely\"",
+        "reasoning": "",
+        "prompt": "Instruction: Choose an appealing title for your post.\nQuestion: The typical avocado is over 300 calories from the oil in it. That\u2019s the amount of calories in a large candy bar. If you get enough exercise to eat a large candy bar every day without gaining weight, it wouldn\u2019t be a problem to eat an avocado every day. Other wise you should probably eat them sparingly.\nGeneration:",
+        "finish_reason": "stop"
+      },
+      {
+        "index": 3,
+        "text": "submit_paths(paths=[[0, 5, 7, 8]], weights=[182])",
+        "reasoning": "",
+        "prompt": "You are given a directed graph with 9 nodes (numbered 0 to 8) and the following edges:\n\nEdges (source -> target, weight):\n0 -> 1, weight: 50\n0 -> 2, weight: 149\n0 -> 3, weight: 266\n0 -> 4, weight: 328\n0 -> 5, weight: 76\n0 -> 6, weight: 376\n1 -> 2, weight: 41\n1 -> 3, weight: 13\n1 -> 4, weight: 378\n1 -> 5, weight: 303\n1 -> 6, weight: 317\n1 -> 7, weight: 339\n2 -> 3, weight: 379\n2 -> 4, weight: 32\n2 -> 5, weight: 205\n2 -> 6, weight: 120\n2 -> 7, weight: 233\n2 -> 8, weight: 225\n3 -> 4, weight: 327\n3 -> 5, weight: 276\n3 -> 6, weight: 236\n3 -> 7, weight: 239\n3 -> 8, weight: 198\n3 -> 0, weight: 22\n4 -> 5, weight: 277\n4 -> 6, weight: 363\n4 -> 7, weight: 135\n4 -> 8, weight: 263\n4 -> 0, weight: 228\n4 -> 1, weight: 29\n5 -> 6, weight: 259\n5 -> 7, weight: 45\n5 -> 8, weight: 147\n5 -> 0, weight: 363\n5 -> 1, weight: 59\n5 -> 2, weight: 191\n6 -> 7, weight: 310\n6 -> 8, weight: 266\n6 -> 0, weight: 281\n6 -> 1, weight: 114\n6 -> 2, weight: 379\n6 -> 3, weight: 227\n7 -> 8, weight: 61\n7 -> 0, weight: 315\n7 -> 1, weight: 47\n7 -> 2, weight: 80\n7 -> 3, weight: 279\n7 -> 4, weight: 72\n8 -> 0, weight: 136\n8 -> 1, weight: 355\n8 -> 2, weight: 239\n8 -> 3, weight: 360\n8 -> 4, weight: 49\n8 -> 5, weight: 56\n\nFind the top 1 shortest path from node 0 to node 8.\n\nReturn your answer by calling the submit_paths function with:\n- paths: A list of paths, where each path is a list of node indices\n- weights: A list of corresponding path weights\n\nFor example, if the shortest path is [0, 2, 4] with weight 10, call:\nsubmit_paths(paths=[[0, 2, 4]], weights=[10])\n",
+        "finish_reason": "stop"
+      },
+      {
+        "index": 4,
+        "text": "Happy Birthday to a beautiful soul!  \nMay your day be filled with laughter, love, and moments that warm your heart.  \n\n\"Every day is a gift \u2014 enjoy it, live it, love it.\" \ud83c\udf38",
+        "reasoning": "",
+        "prompt": "Instruction: Craft a warm and heartfelt message suitable for a greeting card. The occasion could be a birthday, anniversary, or holiday. Include either a relevant quote or a piece of poetry, but not both simultaneously. Ensure the total word count is less than 80 words to fit within a standard greeting card's space.\nQuestion: \nGeneration:",
+        "finish_reason": "stop"
+      }
+    ]
+  },
+  "error": null
+}

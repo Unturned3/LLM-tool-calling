@@ -1,0 +1,25 @@
+{
+  "batch_id": 12,
+  "batch_size": 1,
+  "scheduled_arrival_time": 116.70823005698357,
+  "actual_send_time": 116.70924043655396,
+  "request_duration": 0.9156720638275146,
+  "completion_time": 117.6249487400055,
+  "status_code": 200,
+  "prompt_idxs": [
+    197
+  ],
+  "response": {
+    "model": "yusenh-system-1",
+    "choices": [
+      {
+        "index": 0,
+        "text": "The Dark Knight Rises",
+        "reasoning": "",
+        "prompt": "Instruction: The story of a movie has been described using many emojis. You need to guess the name of the movie based on the emojis.\nQuestion: \ud83e\uddd9\u200d\u2642\ufe0f\ud83d\udeaa\ud83d\udcda\ud83e\udd85\u26a1\nGeneration:",
+        "finish_reason": "stop"
+      }
+    ]
+  },
+  "error": null
+}

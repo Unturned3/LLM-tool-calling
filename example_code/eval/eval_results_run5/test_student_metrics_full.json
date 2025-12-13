@@ -1,0 +1,22 @@
+{
+  "student_id": "test_student",
+  "total_examples": 300,
+  "task_metrics": {
+    "mmlu_med": {
+      "count": 100,
+      "accuracy": 0.83,
+      "total_score": 83.0
+    },
+    "graph": {
+      "count": 100,
+      "accuracy": 0.96,
+      "total_score": 96.0
+    },
+    "infobench": {
+      "count": 100,
+      "accuracy": 0.7513020868020868,
+      "total_score": 75.13020868020868
+    }
+  },
+  "overall_accuracy": 0.8471006956006956
+}

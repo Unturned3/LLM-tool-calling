@@ -1,0 +1,8 @@
+Starting simulation with 98 batches
+Total prompts: 300
+Arrival simulation duration: 1151.66 seconds
+Output directory: run12
+Max concurrent requests: 300
+
+[t=3.09s] Sending batch 0 (scheduled: 3.09s, size: 2)
+[t=3.21s] ERROR batch 0: 404, message='Attempt to decode JSON with unexpected mimetype: ', url='https://unturned3--yusenh-1-modalcontainer-completions.modal.run'

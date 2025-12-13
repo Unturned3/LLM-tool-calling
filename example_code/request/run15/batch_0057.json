@@ -1,0 +1,49 @@
+{
+  "batch_id": 57,
+  "batch_size": 4,
+  "scheduled_arrival_time": 750.1820199932646,
+  "actual_send_time": 750.1832938194275,
+  "request_duration": 69.45354652404785,
+  "completion_time": 819.6368782520294,
+  "status_code": 200,
+  "prompt_idxs": [
+    211,
+    144,
+    282,
+    291
+  ],
+  "response": {
+    "model": "yusenh-system-3",
+    "choices": [
+      {
+        "index": 0,
+        "text": "The answer is (C)",
+        "reasoning": "",
+        "prompt": "The following is a multiple choice question (with answers) about  college medicine.  Output the answer in the format of \"The answer is (X)\" at the end.\n\nQuestion: A fundamental cause of fatigue in high intensity exercise is:\n Options:\nA. a fall in the cell concentration of ADP.\nB. inhibition of ATP production.\nC. failure of the ATP supply to match the demand.\nD. lack of skill.\nAnswer:",
+        "finish_reason": "stop"
+      },
+      {
+        "index": 1,
+        "text": "- Introduction: A friendly welcome with a light-hearted note about how gift-giving can feel stressful, especially at the last minute  \n- Why Last-Minute Gifts Work: Quick tips on why people often appreciate thoughtful, unexpected gifts  \n- How to Stay Calm (and Not Stress Out): Simple mental tricks to keep your cool when time is tight  \n- 10 Last-Minute Gift Ideas (with categories):  \n  1. For the coffee lover  \n  2. For the bookworm  \n  3. For the tech-savvy friend  \n  4. For the homebody  \n  5. For the foodie  \n  6. For the pet parent  \n  7. For the outdoors enthusiast  \n  8. For the sentimental person  \n  9. For the fashion-forward  \n  10. For the \u201cI don\u2019t know what they like\u201d friend  \n- How to Pick the Perfect Gift in 60 Seconds: A quick checklist to make a smart, stress-free choice  \n- Bonus: \u201cNo-Brainer\u201d Gifts That Actually Work (for when you\u2019re truly stuck)  \n- Closing: A warm reminder that the thought behind a gift matters more than the price tag \u2014 and you\u2019ve got this!",
+        "reasoning": "",
+        "prompt": "Instruction: Design an outline for a blog post based on the given information and list the sections accordingly.\nQuestion: This blog post is going to about making a list of last-minute gift ideas. Also, the tone of the post is going to be relaxed and casual.\nGeneration:",
+        "finish_reason": "stop"
+      },
+      {
+        "index": 2,
+        "text": "The answer is (A)",
+        "reasoning": "",
+        "prompt": "The following is a multiple choice question (with answers) about  professional medicine.  Output the answer in the format of \"The answer is (X)\" at the end.\n\nQuestion: A 35-year-old man comes to the office for follow-up of sarcoidosis. His only new complaint is pain in his legs that increases with weight-bearing. He has been taking glucocorticoid therapy for the past 6 months. Vital signs now are temperature 37.0\u00b0C (98.6\u00b0F), pulse 78/min, respirations 14/min, and blood pressure 110/70 mm Hg. The patient is thin and is in no acute distress. Auscultation of the chest discloses scattered bilateral basilar crackles. There is mild left hip pain present with both active and passive range of motion. Dorsalis pedis pulse is intact. Neurologic examination is normal. Which of the following is the most likely cause of this patient's symptoms?\n Options:\nA. Avascular necrosis of the femoral head\nB. Herniated nucleus pulposus\nC. Narrowing of the hip joint\nD. Osteoporosis\nAnswer:",
+        "finish_reason": "stop"
+      },
+      {
+        "index": 3,
+        "text": "The answer is (D)",
+        "reasoning": "",
+        "prompt": "The following is a multiple choice question (with answers) about  professional medicine.  Output the answer in the format of \"The answer is (X)\" at the end.\n\nQuestion: A 44-year-old female presents to the office for evaluation of a lump on her neck that she noted 1\u00a0week ago. She denies any tenderness, fever, weight loss, or fatigue. Physical examination reveals a\u00a02-cm\u00a0freely movable mass in the lower left lobe of the thyroid. In addition to thyroid-stimulating hormone and free thyroxine levels, the most appropriate initial method to investigate this lesion is\n Options:\nA. a nuclear thyroid scan\nB. an iodine131\u00a0scan\nC. fine-needle aspiration\nD. ultrasonography of the thyroid gland\nAnswer:",
+        "finish_reason": "stop"
+      }
+    ]
+  },
+  "error": null
+}

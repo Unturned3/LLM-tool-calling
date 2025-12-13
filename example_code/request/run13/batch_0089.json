@@ -1,0 +1,33 @@
+{
+  "batch_id": 89,
+  "batch_size": 2,
+  "scheduled_arrival_time": 1096.1028731922158,
+  "actual_send_time": 1096.1036717891693,
+  "request_duration": 58.57046866416931,
+  "completion_time": 1154.6741735935211,
+  "status_code": 200,
+  "prompt_idxs": [
+    298,
+    212
+  ],
+  "response": {
+    "model": "yusenh-system-1",
+    "choices": [
+      {
+        "index": 0,
+        "text": "The patient presents with recurrent episodes of vertigo, hearing loss, tinnitus, a sense of fullness in the right ear, and vomiting. The symptoms are consistent with Meniere's disease, which is characterized by episodic vertigo, sensorineural hearing loss, tinnitus, and a feeling of fullness in the ear. The vertigo is typically of sudden onset and lasts for hours, followed by a period of remission. The presence of sensorineural hearing loss (mild in this case) and the triad of vertigo, hearing loss, and tinnitus strongly supports this diagnosis.\n\nBenign positional vertigo (B) causes brief episodes of vertigo triggered by specific head movements, but not typically with hearing loss or tinnitus.\n\nAcoustic neuroma (A) can cause hearing loss and vertigo, but it is usually progressive and presents with gradual hearing loss and other signs like facial weakness or hearing loss over time, not episodic vertigo with tinnitus and fullness.\n\nBrain stem transient ischemic attacks (C) may cause vertigo, but typically present with neurological deficits and are associated with stroke-like symptoms, not isolated vertigo with hearing loss and tinnitus.\n\nThus, the most likely diagnosis is Meniere's disease.\n\nThe answer is (D)",
+        "reasoning": "",
+        "prompt": "The following is a multiple choice question (with answers) about  professional medicine.  Output the answer in the format of \"The answer is (X)\" at the end.\n\nQuestion: A 35-year-old woman comes to the physician because of two 12-hour episodes of dizziness over the past 3 months. During episodes, she experiences the acute onset of rotatory vertigo and imbalance, decreased hearing, tinnitus, a sense of fullness of the right ear, and vomiting. Examination shows a mild hearing loss of the right ear. Which of the following is the most likely diagnosis?\n Options:\nA. Acoustic neuroma\nB. Benign positional vertigo\nC. Brain stem transient ischemic attacks\nD. Meniere's disease\nAnswer:",
+        "finish_reason": "stop"
+      },
+      {
+        "index": 1,
+        "text": "The patient is a 65-year-old female who presents with aphasia and right-sided hemiparesis, which suggests a stroke affecting the left hemisphere (due to contralateral motor and language deficits). She subsequently develops urinary incontinence without infection or prior urinary pathology.\n\nThe key here is to identify the type of neurogenic bladder associated with a central nervous system lesion, specifically a stroke.\n\nLet\u2019s evaluate the options:\n\nA. Autonomic neurogenic bladder \u2013 This refers to bladder dysfunction due to disruption of autonomic control (e.g., spinal cord injury, diabetes, Parkinson\u2019s). It involves loss of voluntary control and can present with either overactivity or underactivity, depending on the level of injury. In the context of stroke, this could be relevant, but it's not the most precise term for the typical post-stroke bladder dysfunction.\n\nB. Motor paralytic bladder \u2013 This occurs when there is loss of detrusor muscle function due to spinal cord injury or stroke. The bladder cannot contract effectively, leading to urinary retention. However, this is less common in stroke patients and typically associated with lower motor neuron lesions. In this case, the patient has incontinence, not retention.\n\nC. Reflex neurogenic bladder \u2013 This occurs when the bladder becomes reflexive due to loss of voluntary control, often due to spinal cord injury at or above the sacral level. It is characterized by overactive bladder with involuntary contractions, and is typically associated with high-level spinal cord injury. Not common in stroke.\n\nD. Uninhibited neurogenic bladder \u2013 This is a term used to describe a bladder that is unable to be inhibited, often due to central nervous system lesions (like stroke). In such cases, the bladder is overactive and cannot be voluntarily emptied, leading to incontinence. This is particularly common after stroke due to disruption of the cortical control of bladder function.\n\nIn patients with stroke, especially with hemiparesis and aphasia, the most common neurogenic bladder dysfunction is due to loss of cortical inhibition, leading to uninhibited bladder contractions. This is known as uninhibited neurogenic bladder.\n\nTherefore, the most likely diagnosis is:\n\nD. uninhibited neurogenic bladder\n\nThe answer is (D)",
+        "reasoning": "",
+        "prompt": "The following is a multiple choice question (with answers) about  professional medicine.  Output the answer in the format of \"The answer is (X)\" at the end.\n\nQuestion: A 65-year-old female is admitted to the hospital after experiencing aphasia and right-sided hemiparesis. She subsequently develops urinary incontinence. There is no evidence of urinary tract infection and no prior history of urinary pathology. The most likely diagnosis is\n Options:\nA. autonomic neurogenic bladderv\nB. motor paralytic bladder\nC. reflex neurogenic bladder\nD. uninhibited neurogenic bladder\nAnswer:",
+        "finish_reason": "stop"
+      }
+    ]
+  },
+  "error": null
+}
